@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.constraint.ConstraintLayout
+            android:padding="10dp"
+            android:layout_margin="10dp"
+            android:background="@color/amethyst1"
+            android:id="@+id/cardLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                app:layout_constraintTop_toTopOf="@+id/cardLayout"
+                app:layout_constraintStart_toStartOf="@+id/cardLayout"
+                app:layout_constraintBottom_toTopOf="@+id/bssidTextView"
+                android:id="@+id/ssidTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp"/>
+            <TextView
+                app:layout_constraintStart_toStartOf="@+id/ssidTextView"
+                app:layout_constraintTop_toBottomOf="@+id/ssidTextView"
+                app:layout_constraintBottom_toTopOf="@+id/rssiLevelTextView"
+                android:id="@+id/bssidTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp" />
+            <TextView
+                app:layout_constraintStart_toStartOf="@+id/ssidTextView"
+                app:layout_constraintTop_toBottomOf="@+id/bssidTextView"
+                app:layout_constraintBottom_toBottomOf="@+id/cardLayout"
+                android:id="@+id/rssiLevelTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10dp" />
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+
+</layout>

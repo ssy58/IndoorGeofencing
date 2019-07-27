@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="amethyst1">#F5EEF8</color>
+    <color name="amethyst2">#EBDEF0</color>
+    <color name="amethyst3">#D7BDE2</color>
+    <color name="amethyst4">#c39bd3</color>
+    <color name="amethyst5">#AF7AC5</color>
+    <color name="amethyst6">#884EA0</color>
+</resources>
